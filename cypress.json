@@ -1,0 +1,10 @@
+{
+  "baseUrl": "https://brella-react-git-temp-qa-form-brella.vercel.app",
+  "watchForFileChanges":false,
+  "chromeWebSecurity": false,
+  "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "configFile": "reporter-config.json"
+  }
+  
+}

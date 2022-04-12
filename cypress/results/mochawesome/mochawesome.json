@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-09T18:29:59.815Z",
+    "end": "2022-04-09T18:30:14.795Z",
+    "duration": 14980,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a6162a07-20de-424d-865d-cac2e5bf7aa0",
+      "title": "",
+      "fullFile": "cypress/integration/test-template.spec.js",
+      "file": "cypress/integration/test-template.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e61ebdeb-7147-4f50-8ebb-b31c9a42aa07",
+          "title": "Brella test page functionality testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Fill all fields and save, as happypath",
+              "fullTitle": "Brella test page functionality testing Fill all fields and save, as happypath",
+              "timedOut": null,
+              "duration": 4340,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_brellaPage.mainPage.fillAll();\n_brellaPage.mainPage.assertAll();\n_brellaPage.mainPage.validationCheck();",
+              "err": {},
+              "uuid": "e07cd113-b6c4-4b3a-9e9a-6b7a9cb3685b",
+              "parentUUID": "e61ebdeb-7147-4f50-8ebb-b31c9a42aa07",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check all validations",
+              "fullTitle": "Brella test page functionality testing Check all validations",
+              "timedOut": null,
+              "duration": 3142,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_brellaPage.mainPage.typeInvalidEmail();\n_brellaPage.mainPage.typeInvalidNumber();\n_brellaPage.mainPage.numberValidation();\n_brellaPage.mainPage.clickSave();\n_brellaPage.mainPage.validationCheck();\n_brellaPage.mainPage.emailValidation();",
+              "err": {},
+              "uuid": "43db6154-4359-47ec-af59-01d31e727764",
+              "parentUUID": "e61ebdeb-7147-4f50-8ebb-b31c9a42aa07",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should work on mobile view for multiple saving",
+              "fullTitle": "Brella test page functionality testing Should work on mobile view for multiple saving",
+              "timedOut": null,
+              "duration": 4388,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport('iphone-8');\n_brellaPage.mainPage.fillAll();\n_brellaPage.mainPage.fillAll();\n_brellaPage.mainPage.fillAll();",
+              "err": {},
+              "uuid": "32749cc2-6ee2-4dfb-b741-504eff3b8d7a",
+              "parentUUID": "e61ebdeb-7147-4f50-8ebb-b31c9a42aa07",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should not save without email",
+              "fullTitle": "Brella test page functionality testing Should not save without email",
+              "timedOut": null,
+              "duration": 1261,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_brellaPage.mainPage.typeName();\n_brellaPage.mainPage.typeNumber();\n_brellaPage.mainPage.yearPicker();\n_brellaPage.mainPage.switchOff();",
+              "err": {},
+              "uuid": "04ed3985-f168-49bb-a2b6-69fb4110e289",
+              "parentUUID": "e61ebdeb-7147-4f50-8ebb-b31c9a42aa07",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should work with mixed order",
+              "fullTitle": "Brella test page functionality testing Should work with mixed order",
+              "timedOut": null,
+              "duration": 1522,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_brellaPage.mainPage.typeEmail();\n_brellaPage.mainPage.yearPicker();\n_brellaPage.mainPage.typeName();\n_brellaPage.mainPage.checkButton();",
+              "err": {},
+              "uuid": "fc5bebe0-e574-4a76-8948-d2f0ff6994e9",
+              "parentUUID": "e61ebdeb-7147-4f50-8ebb-b31c9a42aa07",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e07cd113-b6c4-4b3a-9e9a-6b7a9cb3685b",
+            "43db6154-4359-47ec-af59-01d31e727764",
+            "32749cc2-6ee2-4dfb-b741-504eff3b8d7a",
+            "04ed3985-f168-49bb-a2b6-69fb4110e289",
+            "fc5bebe0-e574-4a76-8948-d2f0ff6994e9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14653,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

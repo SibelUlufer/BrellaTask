@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2022-04-09T18:29:59" tests="0" file="cypress/integration/test-template.spec.js" time="0.0000" failures="0"></testsuite>
+<testsuite name="Brella test page functionality testing" timestamp="2022-04-09T18:29:59" tests="5" time="14.9640" failures="0">
+  
+  <testcase name="Brella test page functionality testing Fill all fields and save, as happypath" time="4.3400" classname="Fill all fields and save, as happypath"></testcase>
+  
+  <testcase name="Brella test page functionality testing Check all validations" time="3.1420" classname="Check all validations"></testcase>
+  
+  <testcase name="Brella test page functionality testing Should work on mobile view for multiple saving" time="4.3880" classname="Should work on mobile view for multiple saving"></testcase>
+  
+  <testcase name="Brella test page functionality testing Should not save without email" time="1.2610" classname="Should not save without email"></testcase>
+  
+  <testcase name="Brella test page functionality testing Should work with mixed order" time="1.5220" classname="Should work with mixed order"></testcase>
+  
+</testsuite>
+
+</testsuites>
